@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Pravozashhitnik">
   <meta name="author" content="Казанин Павел">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Правозащитник</title>
 </head>
@@ -19,8 +24,29 @@
         <a href="#modal" class="contacts__request-call">Заказать звонок</a>
       </adress>
     </div>
-    <div class="header__menu"></div>
+    <div class="header__menu menu">
+      <div class="menu__container">
+        <div class="menu__logo">
+          <p class="logo__title">Правозащитник</p>
+          <p class="logo__subtitle">юридическая компания</p>
+        </div>
+        <ul class="menu__items">
+          <li class="menu__item">Услуги</li>
+          <li class="menu__item">О компании</li>
+          <li class="menu__item">Наши юристы</li>
+          <li class="menu__item">Отзывы</li>
+          <li class="menu__item">Новости</li>
+          <li class="menu__item">Контакты</li>
+        </ul>
+      </div>
+    </div>
   </header>
-
+  <main class="content">
+    <section class="lead">
+      <h1 class="lead__title">Оказываем весь комплекс <span class="lead__title_accent">юридических услуг</span></h1>
+      <p class="lead__subtitle">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение.</p>
+      <button class="lead__button">Наши услуги</button>
+    </section>
+  </main>
 </body>
 </html>
