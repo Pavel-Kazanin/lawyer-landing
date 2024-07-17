@@ -513,8 +513,6 @@ button:active {
   color: rgb(34, 34, 34);  
 }
 
-
-
 .services {
   max-width: 1920px;
   width: 100%;
@@ -524,6 +522,18 @@ button:active {
   align-items: center;  
   box-sizing: border-box;
   padding-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .services {
+    padding-bottom: 60px;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .services {    
+    padding-bottom: 40px;    
+  }  
 }
 
 .services__title {  
@@ -603,6 +613,36 @@ button:active {
   }  
 }
 
+@media screen and (max-width: 560px) {
+  .services__list {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    column-gap: 24px;
+    margin: 0;  
+    margin-top: 24px;    
+    /* overflow: hidden; */
+    padding: 0;
+    padding-left: 24px;
+    box-sizing: border-box;
+  }  
+}
+
+.services__slider .slick-list {
+  display: flex; 
+  justify-content: flex-start; 
+  width: 100%;
+}
+
+.services__slider .slick-track {
+  gap: 24px;
+
+}
+
+/* .services__slider .slick-active {
+  margin-left: 24px;
+} */
+
 .services__border {  
   position: relative;
   align-self: center;
@@ -612,6 +652,7 @@ button:active {
 @media screen and (max-width: 1024px) {
   .services__border {
     max-width: 336px;
+    min-width: 250px;
   }  
 }
 
@@ -760,19 +801,7 @@ button:active {
   background-image: url(../images/services-item-logo-hover.svg);
 }
 
-.services__button {
-  /* color: rgb(255, 255, 255);
-  font-size: 14px;
-  font-weight: 900;
-  line-height: 120%;
-  letter-spacing: 0;
-  text-align: center;
-  text-transform: uppercase; */
-  width: 138px;
-  /* height: 49px;
-  box-sizing: border-box;
-  border: 2px solid rgb(79, 143, 240);
-  background: rgb(79, 143, 240);
-  margin-bottom: 80px; */
+.services__button {  
+  width: 138px;  
 }
 
