@@ -1,0 +1,5 @@
+.menu__list_active {
+  display: flex;
+  opacity: 1;
+  animation: show 0.5s;
+}

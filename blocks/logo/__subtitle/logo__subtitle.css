@@ -1,0 +1,15 @@
+.logo__subtitle {
+  color: rgb(255, 255, 255);  
+  margin: 0;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: lowercase;
+}
+
+@media screen and (max-width: 834px) {
+  .logo__subtitle {
+    font-size: 16px;
+  }
+}

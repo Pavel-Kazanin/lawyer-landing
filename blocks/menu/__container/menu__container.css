@@ -1,0 +1,14 @@
+.menu__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 69px;
+}
+
+@media screen and (max-width: 720px) {
+  .menu__container {
+    margin: 0 23px;
+  }  
+}

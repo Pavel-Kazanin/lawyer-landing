@@ -1,0 +1,14 @@
+.menu__item {  
+  color: rgb(255, 255, 255);  
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.menu__item:hover {
+  color: rgb(79, 143, 240);
+  text-decoration-line: underline;
+  cursor: pointer;
+}

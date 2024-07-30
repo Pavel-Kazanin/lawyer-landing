@@ -1,0 +1,19 @@
+.lead-slider__control-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  max-width: 1320px;
+  width: calc(100% - 138px);
+  bottom: 46px;
+  color: rgb(230, 230, 230);
+  font-size: 26px;
+  line-height: 1;
+  margin: 0 69px;  
+}
+
+@media screen and (max-width: 720px) {
+  .lead-slider__control-panel {
+    display: none;
+  }
+}

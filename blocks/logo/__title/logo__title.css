@@ -1,0 +1,15 @@
+.logo__title {
+  color: rgb(79, 143, 240);
+  margin: 0;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 150%;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 834px) {
+  .logo__title {
+    font-size: 22px;
+  }
+}

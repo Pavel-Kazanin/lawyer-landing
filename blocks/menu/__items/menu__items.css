@@ -1,0 +1,20 @@
+.menu__items {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 32px;
+  row-gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 834px) {  
+  .menu__items {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 26px;
+    margin-top: 10px;
+    gap: 24px;
+  }
+}

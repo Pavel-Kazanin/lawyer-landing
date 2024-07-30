@@ -9,15 +9,17 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-  console.log("слайдер добавлен");
+// Инициализация слайдера services секции
+$(document).ready(function(){  
   $('.services__slider').slick({  
     dots: false,
     arrows: false,
     initialSlide: 0,
     infinite: false,
     slidesToShow: 1,
-    focusOnSelect: true       
+    slidesToScroll: 1,
+    focusOnSelect: true,
+    centerMode: true          
   });
   someFunc();
 });
@@ -25,28 +27,25 @@ $(document).ready(function(){
 // Включение и отключение services слайдера, при изменении ширины экрана
 function someFunc() {  
   var w = window.innerWidth;
-  console.log("dfdjdfj");
-  if (w > 560) {
-    console.log("22222");
+  if (w > 560) {    
     $('.services__slider').slick('unslick');
   } else {
     $(document).ready(function(){
       $('.services__slider').slick({  
         dots: false,
         arrows: false,
-        mobileFirst: true,
-        slidesToShow: 2,
-        swipeToSlide: true           
+        initialSlide: 0,
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        focusOnSelect: true,
+        centerMode: true           
       });
     });
-  }
-  console.log("SomeFunc сработал");
+  } 
 }
 
-// someFunc();
-
-window.addEventListener("resize", function() {
-  console.log("Resize сработал");
+window.addEventListener("resize", function() {  
   someFunc();  
 });
 
@@ -56,11 +55,11 @@ const burgerCloseButton = document.querySelector('.menu__close-button');
 const burgerMenu = document.querySelector('.menu__list');
 
 // Слушатель клика на открытие бургер меню
-// burgerOpenButton.addEventListener('click', function (event) {
-//   burgerMenu.classList.add('menu__list-active');
-// });
+burgerOpenButton.addEventListener('click', function (event) {
+  burgerMenu.classList.add('menu__list_active');
+});
 
 // // Слушатель клика на закрытие бургер меню
-// burgerCloseButton.addEventListener('click', function (event) {
-//   burgerMenu.classList.remove('menu__list-active');
-// });
+burgerCloseButton.addEventListener('click', function (event) {
+  burgerMenu.classList.remove('menu__list_active');
+});

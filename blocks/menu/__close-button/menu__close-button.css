@@ -1,0 +1,19 @@
+.menu__close-button {
+  display: none;
+}
+
+@media screen and (max-width: 834px) {
+  .menu__close-button {
+    display: block;
+    background-image: url(../../../images/menu_burger_close_icon.svg);
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+    border: 0;
+    padding: 24px;
+    align-self: flex-end;
+    cursor: pointer;
+  }
+}

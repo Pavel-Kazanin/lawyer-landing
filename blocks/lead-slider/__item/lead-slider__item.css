@@ -1,0 +1,36 @@
+.lead-slider__item {   
+  height: 820px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead-slider__item {
+    height: 529px;
+  }  
+}
+
+@media screen and (max-width: 720px) {
+  .lead-slider__item {
+    height: 486px;
+  }  
+}
+
+.item1 {
+  background-image: url(../../../images/head-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+
+.item2 {
+  background-image: url(../../../images/forest-landscape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+
+.item3 {
+  background-image: url(../../../images/head-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}

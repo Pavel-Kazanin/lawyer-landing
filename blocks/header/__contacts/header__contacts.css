@@ -1,0 +1,9 @@
+.header__contacts {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(1, 1, 1);
+  height: 52px;
+  padding: 16px 0;
+  box-sizing: border-box;
+}

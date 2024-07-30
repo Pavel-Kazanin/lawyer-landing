@@ -1,0 +1,13 @@
+@media screen and (max-width: 834px) {
+  .menu__list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 290px;
+    height: 529px;
+    background-color: rgb(34, 34, 34);
+    opacity: 0;    
+  } 
+}

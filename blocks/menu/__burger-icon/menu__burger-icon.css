@@ -1,0 +1,18 @@
+.menu__burger-icon {
+  display: none;
+  background-image: url(../../../images/menu-burger-icon.svg);
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 16px;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 834px) {
+  .menu__burger-icon {
+    display: block;
+  }  
+}

@@ -1,0 +1,10 @@
+.contacts__info a {
+  color: rgb(255, 255, 255);
+  height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;   
+  position: relative;
+  margin-left: 28px;
+  margin-right: 24px;
+}

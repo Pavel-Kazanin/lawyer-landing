@@ -1,0 +1,17 @@
+.contacts__info_email::before {
+  content: '';
+  position: absolute;
+  left: -30px;
+  display: inline-block;
+  background-image: url(../../../../images/email.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .contacts__info_email {
+    display: none;
+  }  
+}

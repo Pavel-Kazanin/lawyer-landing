@@ -1,0 +1,11 @@
+.contacts__info_tel::before {
+  content: '';  
+  position: absolute;
+  left: -28px;
+  display: inline-block;
+  background-image: url(../../../../images/phone.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
