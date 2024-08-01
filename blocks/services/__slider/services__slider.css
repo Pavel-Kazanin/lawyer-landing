@@ -1,0 +1,8 @@
+.services__slider .slick-list {
+  display: flex;  
+  width: 100%;
+}  
+
+.services__slider .slick-track {
+  gap: 24px;
+}

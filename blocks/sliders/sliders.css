@@ -1,0 +1,9 @@
+.slick-list {
+  justify-content: center;  
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  width: 100%;
+}

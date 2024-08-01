@@ -1,0 +1,44 @@
+.services__border {  
+  position: relative;
+  align-self: center;
+  height: 100%;  
+}
+
+.services__border:hover::before {
+  content: '';
+  z-index: 2;
+  position: absolute;
+  width: 35px;
+  height: 35px;  
+  right: 20px;
+  top: 20px;  
+  box-sizing: border-box;
+  border-top: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid rgb(255, 255, 255);
+}
+
+.services__border:hover::after {
+  content: '';
+  z-index: 2;
+  position: absolute;
+  width: 35px;
+  height: 35px;  
+  right: 20px;
+  bottom: 20px;  
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 1024px) {
+  .services__border {
+    max-width: 336px;
+    min-width: 250px;
+  }  
+}
+
+@media screen and (max-width: 834px) {
+  .services__border {
+    max-width: 250px;
+  }  
+}

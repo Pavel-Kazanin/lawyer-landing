@@ -2,3 +2,46 @@
   width: 100%;
   position: relative;  
 }
+
+.lead .slick-arrow {    
+  font-size: 0;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  border: 0;  
+  cursor: pointer;
+  padding: 0;
+}
+
+.lead .slick-arrow.slick-next { 
+  margin-left: 8px;  
+  background: url(../../../images/20px_arrowright.svg) 0 0 / 100% no-repeat;
+}
+
+.lead .slick-arrow.slick-prev {  
+  margin-right: 8px;
+  background: url(../../../images/20px_arrowleft.svg) 0 0 / 100% no-repeat;
+}
+
+.lead .slick-dots {  
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  font-size: 0;  
+  list-style-type: none;
+  padding: 0;
+}
+
+.lead .slick-dots .slick-active button {
+  width: 4px;
+  height: 40px;
+  background-color: rgb(79, 143, 240);
+}
+
+.lead .slick-dots button {
+  height: 24px;
+  width: 4px;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}

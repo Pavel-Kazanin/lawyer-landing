@@ -1,0 +1,23 @@
+.services-item__subtitle {
+  width: 100%;
+  display: -webkit-box;
+  color: rgb(34, 34, 34);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 0 0 9px 0;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical; 
+  overflow: hidden;
+  height: 51px;
+}
+
+@media screen and (max-width: 1024px) {
+  .services-item__subtitle {
+    font-weight: 300px;
+    margin: 0;
+  }  
+}

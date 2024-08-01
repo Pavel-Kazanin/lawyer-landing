@@ -1,0 +1,15 @@
+.services-item__title {
+  color: rgb(34, 34, 34);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .services-item__title {
+    line-height: 120%;
+  }  
+}
