@@ -45,6 +45,78 @@
 @import url(../blocks/services/__button/services__button.css);
 
 a {
-  text-decoration: none;
+  text-decoration: none; 
 }
+
+.about-company {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+  box-sizing: border-box;
+}
+
+.about-company__container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 69px;
+}
+
+.about-company__description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 720px;  
+}
+
+.description__title {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 150%;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;  
+}
+
+.description__title::after {
+  display: block;
+  content: '';
+  width: 50px;
+  height: 3px;
+  background-color: rgb(79, 143, 240);
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.description__title span {
+  color: rgb(79, 143, 240);
+}
+
+.description__text {
+  color: rgb(34, 34, 34);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.text__paragraph {
+  margin: 24px 0;
+}
+
+.description__text :first-child {
+  margin: 0;
+}
+
+.description__text :last-child {
+  margin: 0;
+}
+
+.description__links {
+  display: flex;
+  gap: 24px;
+}
+
 
