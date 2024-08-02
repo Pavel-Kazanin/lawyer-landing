@@ -6,7 +6,8 @@
   border: 2px solid rgb(79, 143, 240);
   background: rgb(79, 143, 240);
   margin-top: 48px;
-  width: 158px;
+  padding: 16px 22px;  
+  /* width: 158px; */
   height: 49px;
   color: rgb(255, 255, 255);  
   font-size: 14px;
