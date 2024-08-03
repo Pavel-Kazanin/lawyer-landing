@@ -1,0 +1,35 @@
+.description__title {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 150%;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;  
+}
+
+@media screen and (max-width: 834px) {
+  .description__title {
+    font-size: 24px;
+  }  
+}
+
+@media screen and (max-width: 540px) {
+  .description__title {
+    font-size: 20px;
+  }  
+}
+
+.description__title::after {
+  display: block;
+  content: '';
+  width: 50px;
+  height: 3px;
+  background-color: rgb(79, 143, 240);
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.description__title span {
+  color: rgb(79, 143, 240);
+}

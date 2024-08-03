@@ -43,163 +43,19 @@
 @import url(../blocks/services-item/__title/services-item__title.css);
 @import url(../blocks/services-item/__subtitle/services-item__subtitle.css);
 @import url(../blocks/services/__button/services__button.css);
+@import url(../blocks/about-company/about-company.css);
+@import url(../blocks/about-company/__container/about-company__container.css);
+@import url(../blocks/about-company/__description/about-company__description.css);
+@import url(../blocks/about-company/__image-container/about-company__image-container.css);
+@import url(../blocks/about-company/__image/about-company__image.css);
+@import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/__text/description__text.css);
+@import url(../blocks/description/__links/description__links.css);
+@import url(../blocks/description/__link/description__link.css);
+@import url(../blocks/description/__link/_history/description__link_history.css);
+@import url(../blocks/description/__link/_sertificates/description__link_sertificates.css);
+@import url(../blocks/text/__paragraph/text__paragraph.css);
 
 a {
   text-decoration: none; 
 }
-
-.about-company {
-  display: flex;
-  justify-content: center;
-  padding: 80px 0;
-  box-sizing: border-box;
-}
-
-@media screen and (max-width: 834px) {
-  .about-company {
-    padding: 60px 0;
-  }  
-}
-
-@media screen and (max-width: 540px) {
-  .about-company {
-    padding: 40px 0;
-  }  
-}
-
-.about-company__container {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 1320px;
-  margin: 0 69px;
-}
-
-@media screen and (max-width: 834px) {
-  .about-company__container {
-    margin: 0 24px;
-  }  
-}
-
-@media screen and (max-width: 1180px) {
-  .about-company__container {
-    justify-content: center;
-  }  
-}
-
-.about-company__description {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 720px;  
-}
-
-.description__title {
-  font-size: 28px;
-  font-weight: 900;
-  line-height: 150%;
-  letter-spacing: 0;
-  text-align: left;
-  text-transform: uppercase;
-  margin: 0;  
-}
-
-@media screen and (max-width: 834px) {
-  .description__title {
-    font-size: 24px;
-  }  
-}
-
-@media screen and (max-width: 540px) {
-  .description__title {
-    font-size: 20px;
-  }  
-}
-
-.description__title::after {
-  display: block;
-  content: '';
-  width: 50px;
-  height: 3px;
-  background-color: rgb(79, 143, 240);
-  margin-top: 10px;
-  margin-bottom: 24px;
-}
-
-.description__title span {
-  color: rgb(79, 143, 240);
-}
-
-.description__text {
-  color: rgb(34, 34, 34);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0;
-  text-align: left;
-  margin-bottom: 32px;
-}
-
-@media screen and (max-width: 540px) {
-  .description__text {
-    margin-bottom: 24px;
-  }  
-}
-
-.text__paragraph {
-  margin: 24px 0;
-}
-
-.description__text :first-child {
-  margin: 0;
-}
-
-.description__text :last-child {
-  margin: 0;
-}
-
-.description__links {
-  display: flex;
-  gap: 24px;
-}
-
-@media screen and (max-width: 540px) {
-  .description__links {
-    flex-direction: column;
-    align-items: center;
-  }  
-}
-
-.description__link {  
-  margin: 0;
-}
-
-.description__link-history {
-  max-width: 210px;
-}
-
-.description__link-sertificates {
-  max-width: 161px;
-}
-
-.about-company__image-container {
-  max-width: 535px;
-  min-width: 400px;
-  max-height: 359px;
-  margin-left: 64px;
-}
-
-@media screen and (max-width: 1180px) {
-  .about-company__image-container {
-    display: none;
-  }  
-}
-
-.about-company__image {
-  width: 100%;
-  height: auto;  
-  object-fit: cover;
-  box-shadow: 4px 4px 12px 2px rgba(33, 33, 33, 0.25);
-  background: rgb(255, 255, 255);
-}
-

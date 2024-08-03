@@ -1,0 +1,12 @@
+.about-company__image-container {
+  max-width: 535px;
+  min-width: 400px;
+  max-height: 359px;
+  margin-left: 64px;
+}
+
+@media screen and (max-width: 1180px) {
+  .about-company__image-container {
+    display: none;
+  }  
+}

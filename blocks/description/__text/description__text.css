@@ -1,0 +1,23 @@
+.description__text {
+  color: rgb(34, 34, 34);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 540px) {
+  .description__text {
+    margin-bottom: 24px;
+  }  
+}
+
+.description__text :first-child {
+  margin: 0;
+}
+
+.description__text :last-child {
+  margin: 0;
+}

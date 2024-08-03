@@ -1,0 +1,11 @@
+.description__links {
+  display: flex;
+  gap: 24px;
+}
+
+@media screen and (max-width: 540px) {
+  .description__links {
+    flex-direction: column;
+    align-items: center;
+  }  
+}

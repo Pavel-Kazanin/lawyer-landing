@@ -1,0 +1,19 @@
+.about-company__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 69px;
+}
+
+@media screen and (max-width: 834px) {
+  .about-company__container {
+    margin: 0 24px;
+  }  
+}
+
+@media screen and (max-width: 1180px) {
+  .about-company__container {
+    justify-content: center;
+  }  
+}
