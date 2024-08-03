@@ -55,12 +55,36 @@ a {
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 834px) {
+  .about-company {
+    padding: 60px 0;
+  }  
+}
+
+@media screen and (max-width: 540px) {
+  .about-company {
+    padding: 40px 0;
+  }  
+}
+
 .about-company__container {
   display: flex;
   justify-content: space-between;
   width: 100%;
   max-width: 1320px;
   margin: 0 69px;
+}
+
+@media screen and (max-width: 834px) {
+  .about-company__container {
+    margin: 0 24px;
+  }  
+}
+
+@media screen and (max-width: 1180px) {
+  .about-company__container {
+    justify-content: center;
+  }  
 }
 
 .about-company__description {
@@ -78,6 +102,18 @@ a {
   text-align: left;
   text-transform: uppercase;
   margin: 0;  
+}
+
+@media screen and (max-width: 834px) {
+  .description__title {
+    font-size: 24px;
+  }  
+}
+
+@media screen and (max-width: 540px) {
+  .description__title {
+    font-size: 20px;
+  }  
 }
 
 .description__title::after {
@@ -104,6 +140,12 @@ a {
   margin-bottom: 32px;
 }
 
+@media screen and (max-width: 540px) {
+  .description__text {
+    margin-bottom: 24px;
+  }  
+}
+
 .text__paragraph {
   margin: 24px 0;
 }
@@ -121,20 +163,43 @@ a {
   gap: 24px;
 }
 
+@media screen and (max-width: 540px) {
+  .description__links {
+    flex-direction: column;
+    align-items: center;
+  }  
+}
+
 .description__link {  
   margin: 0;
 }
 
+.description__link-history {
+  max-width: 210px;
+}
+
+.description__link-sertificates {
+  max-width: 161px;
+}
+
 .about-company__image-container {
   max-width: 535px;
+  min-width: 400px;
   max-height: 359px;
-  box-shadow: 4px 4px 12px 2px rgba(33, 33, 33, 0.25);
-  background: rgb(255, 255, 255);
+  margin-left: 64px;
+}
+
+@media screen and (max-width: 1180px) {
+  .about-company__image-container {
+    display: none;
+  }  
 }
 
 .about-company__image {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;  
+  object-fit: cover;
+  box-shadow: 4px 4px 12px 2px rgba(33, 33, 33, 0.25);
+  background: rgb(255, 255, 255);
 }
 
